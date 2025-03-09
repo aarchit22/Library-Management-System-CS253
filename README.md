@@ -22,8 +22,7 @@ The Library Management System is a C++ console application that manages the oper
     - Approve fine clearance requests.
   
 - **Reservation System:**
-  - If a book is borrowed by another user, a user can reserve it.
-  - When a reserved book is returned, it is marked as “Reserved” exclusively for the user who reserved it for 5 days.
+  - If a book is borrowed by another user, a user can reserve it for 5 days following the day of return of book.
   - Within this 5-day period, only the reserving user will see the book as available. If not borrowed within this period, the reservation expires and the book becomes available to all.
 
 - **Borrowing Constraints:**
